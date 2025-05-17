@@ -16,6 +16,7 @@ class Settings:
     FIREBASE_CREDENTIALS_PATH: str = os.getenv("FIREBASE_CREDENTIALS_PATH", "serviceAccountKey.json")
     FIREBASE_PROJECT_ID: str = os.getenv("FIREBASE_PROJECT_ID", "mdd2-2586d")  # Updated to new project ID
     GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", '')
+    FIREBASE_API_KEY: str = os.getenv("FIREBASE_API_KEY", "")  # Add this line for the API key
     
     # CORS settings
     CORS_ORIGINS: list = ["*"]
